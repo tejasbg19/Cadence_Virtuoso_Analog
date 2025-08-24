@@ -6,9 +6,9 @@ This repository documents my hands-on journey through the analog and digital IC 
 
 | Circuit Block | Description | Key Metrics |
 | :--- | :--- | :--- |
-| [**Common-Source Amplifier**](./CS_Amplifier/) | Designed and characterized a basic gain stage. | Gain, Bandwidth, Power |
+| [**Common-Source Amplifier**](./CS_Amplifier) | Designed and characterized a basic gain stage. | Gain, Bandwidth |
 | [**CMOS Inverter**](./Inverter) | Designed and analyzed the fundamental digital building block. | VTC, Propagation Delay |
-| [**2-Input NOR Gate**](./NOR_Gate/) | Transistor-level design of a basic logic gate. | Truth Table, Delay |
+| [**2-Input NOR Gate**](./NOR_Gate) | Transistor-level design of a basic logic gate. | Truth Table, Delay |
 
 ## Toolflow Proficiency
 - **Schematic Capture:** Cadence Virtuoso
