@@ -8,7 +8,7 @@ This repository documents my hands-on journey through the analog IC design flow 
 | :--- | :--- | :--- |
 | [**Common-Source Amplifier**](./CS_Amplifier/CS_Amplifier.md) | Implemented a Common Source Amplifier with PMOS Current Mirror Load | Gain, Bandwidth |
 | [**CMOS Inverter**](./Inverter/Inverter.md) | Designed and analyzed one of the fundamental digital building block the `CMOS Inverter`. | VTC, Propagation Delay |
-| [**2-Input NOR Gate**](./NOR_Gate/NOR_Gate.md) | Transistor-level design of a 2 input NOR gate. | Truth Table, Delay |
+| [**2-Input NOR Gate**](./NOR_Gate/NOR_gate.md) | Transistor-level design of a 2 input NOR gate. | Truth Table, Delay |
 
 ## Toolflow Proficiency
 - **Schematic Capture:** Cadence Virtuoso
