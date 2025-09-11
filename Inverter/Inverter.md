@@ -29,10 +29,10 @@ Transient analysis & DC analysis performed with a pulse input to measure propaga
 
 | **Parameter** | **Description** | **Value** |
 |:-------------:|:----------------|:----------|
-| Technology | gpdk 180nm | - |
-| tpd_rise | Propagation Delay (Rise) | [VALUE] ps |
-| tpd_fall | Propagation Delay (Fall) | [VALUE] ps |
-| tpd | Average Propagation Delay | [VALUE] ps |
+| Technology | gpdk 180nm | Wn = 850n, Wp = 1.7u |
+| tpd_rise | Propagation Delay (Rise) | 470.05 ps |
+| tpd_fall | Propagation Delay (Fall) | 333.84 ps |
+| tpd | Average Propagation Delay | 401.95 ps |
 
 ## 4. Post-Layout Simulation
 The physical layout of the inverter was implemented in Virtuoso Layout XL by instantiating devices from the schematic.
@@ -50,10 +50,10 @@ After verification, RC parasitic extraction was performed using Quantus and post
 
 | **Parameter** | **Description** | **Value** |
 |:-------------:|:----------------|:----------|
-| Technology | gpdk 180nm | - |
-| tpd_rise | Post-Layout Delay (Rise) | [VALUE] ps |
-| tpd_fall | Post-Layout Delay (Fall) | [VALUE] ps |
-| tpd | Post-Layout Average Delay | [VALUE] ps |
+| Technology | gpdk 180nm | Wn = 850n, Wp = 1.7u |
+| tpd_rise | Post-Layout Delay (Rise) | 473.27 ps |
+| tpd_fall | Post-Layout Delay (Fall) | 335.72 ps |
+| tpd | Post-Layout Average Delay | 404.49 ps |
 
 ## 5. Conclusion
 The CMOS inverter was successfully designed and simulated. The comparison between pre-layout and post-layout results demonstrates the impact of parasitic elements on circuit performance.
